@@ -1,10 +1,10 @@
 {
   "name": "netcat_modules__notice",
   "version": "3.0.0",
-  "description": "",
+  "description": "module for netcat",
   "main": "index.js",
   "scripts": {
-    "compress": "tar -czvf octocorp_notice_3.0_5.tar.gz src"
+    "compress": "tar -czvf octocorp_notice_3.0_5.tgz src"
   },
   "author": "",
   "license": "ISC"
