@@ -1,6 +1,5 @@
 .idea
 node_modules
-archive
 
 package-lock.json
 module_notice.iml
