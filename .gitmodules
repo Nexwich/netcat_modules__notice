@@ -1,0 +1,3 @@
+[submodule "netcat_modules__notice.wiki"]
+	path = netcat_modules__notice.wiki
+	url = git://github.com/Nexwich/netcat_modules__notice.wiki

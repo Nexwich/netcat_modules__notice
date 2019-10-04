@@ -1,0 +1,54 @@
+<?php
+define("OCTOCORP_MODULE_NOTICE", "Postman");
+define("OCTOCORP_MODULE_NOTICE_DESCRIPTION", "Delivery of letters to addressees");
+
+define("OCTOCORP_MODULE_NOTICE_BUTTON_ADD", "Add");
+define("OCTOCORP_MODULE_NOTICE_BUTTON_BACK", "Back");
+define("OCTOCORP_MODULE_NOTICE_BUTTON_SAVE", "Save");
+define("OCTOCORP_MODULE_NOTICE_MODE_ADD", "Addition");
+define("OCTOCORP_MODULE_NOTICE_MODE_UPDATE", "Change");
+define("OCTOCORP_MODULE_NOTICE_OBJECT", "Object");
+define("OCTOCORP_MODULE_NOTICE_CATALOGUE", "Site");
+define("OCTOCORP_MODULE_NOTICE_SUBDIVISION", "Page");
+define("OCTOCORP_MODULE_NOTICE_SUBCLASS", "Infoblock");
+define("OCTOCORP_MODULE_NOTICE_CLASS", "Component");
+define("OCTOCORP_MODULE_NOTICE_USER", "User");
+define("OCTOCORP_MODULE_NOTICE_ALL", "All");
+
+define("OCTOCORP_MODULE_NOTICE_RULES", "Rules");
+define("OCTOCORP_MODULE_NOTICE_RULE", "Rule");
+define("OCTOCORP_MODULE_NOTICE_RULE_INDEX", "List rules");
+define("OCTOCORP_MODULE_NOTICE_RULE_ADD", "Add rule");
+define("OCTOCORP_MODULE_NOTICE_RULE_UPDATE", "Update rule");
+define("OCTOCORP_MODULE_NOTICE_RULE_NOT_EXIST", "Create a rule");
+define("OCTOCORP_MODULE_NOTICE_RULE_NAME", "Name");
+define("OCTOCORP_MODULE_NOTICE_RULE_EVENT", "Event");
+define("OCTOCORP_MODULE_NOTICE_RULE_EVENT_CHOSE", "Chose event");
+define("OCTOCORP_MODULE_NOTICE_RULE_ESSENCE", "Essence");
+define("OCTOCORP_MODULE_NOTICE_RULE_ESSENCE_CHOSE", "Chose essence");
+define("OCTOCORP_MODULE_NOTICE_RULE_NOTE", "Note");
+define("OCTOCORP_MODULE_NOTICE_RULE_CRON", "Queue");
+define("OCTOCORP_MODULE_NOTICE_RULE_CRON_TITLE", "Notify after performing «actions after adding / changing»");
+define("OCTOCORP_MODULE_NOTICE_RULE_COND", "Terms of dispatch");
+define("OCTOCORP_MODULE_NOTICE_RULE_ACTION_AFTER_SEND", "Actions after sending");
+
+define("OCTOCORP_MODULE_NOTICE_MESSAGES", "Messages");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE", "Message");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_INDEX", "List of messages");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_ADD", "Adding a message");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_UPDATE", "Edit a message");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_NOT_EXIST", "Create a message");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_NAME", "Name of the message");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_EMAIL_TO", "Recipient's Email");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_EMAIL_FROM", "Sender's Email");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_EMAIL_REPLY", "Email for reply");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_NAME_FROM", "Sender name");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_SUBJECT", "Subject");
+define("OCTOCORP_MODULE_NOTICE_MESSAGE_MESSAGE", "Message");
+
+define("OCTOCORP_MODULE_NOTICE_SETTINGS", "Settings");
+define("OCTOCORP_MODULE_NOTICE_SETTINGS_EMAIL", "Email default");
+define("OCTOCORP_MODULE_NOTICE_SETTINGS_NAME", "Default sender name");
+define("OCTOCORP_MODULE_NOTICE_SETTINGS_SUBJECT", "Message subject by default");
+define("OCTOCORP_MODULE_NOTICE_SETTINGS_DATE", "Date by default");
+define("OCTOCORP_MODULE_NOTICE_SETTINGS_USER_NAME", "Displaying fields in the list of users");

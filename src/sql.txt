@@ -1,0 +1,40 @@
+CREATE TABLE IF NOT EXISTS `Notice_Rule` (
+  `Notice_Rule_ID` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `Notice_Rule_Name` varchar(255) NOT NULL,
+  `Checked` tinyint(1) NOT NULL DEFAULT '1',
+  `Event` varchar(255) NULL,
+  `Cron` tinyint(1) NULL DEFAULT '0',
+  `Note` text NULL,
+  PRIMARY KEY (`Notice_Rule_ID`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+CREATE TABLE IF NOT EXISTS `Notice_Message` (
+  `Notice_Message_ID` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `Notice_Message_Name` VARCHAR(255) NULL,
+  `Notice_Rule_ID` INT(11) NOT NULL,
+  `Checked` tinyint(1) NOT NULL DEFAULT '1',
+  `Email_To` VARCHAR(255) NULL,
+  `Email_From` VARCHAR(255) NULL,
+  `Email_Reply` VARCHAR(255) NULL,
+  `Name` VARCHAR(255) NULL,
+  `Subject` VARCHAR(255) NULL,
+  `Message` TEXT NULL,
+  PRIMARY KEY (`Notice_Message_ID`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+CREATE TABLE IF NOT EXISTS `Notice_Cron` (
+  `Notice_Cron_ID` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `Notice_Rule_ID` int(11) NOT NULL,
+  `Arguments` VARCHAR(255) NULL,
+  `Date` DATETIME NULL,
+  PRIMARY KEY (`Notice_Cron_ID`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+CREATE TABLE IF NOT EXISTS `Notice_History` (
+  `Notice_History_ID` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `Email_To` varchar(255) NULL,
+  `Email_From` varchar(255) NULL,
+  `Email_Reply` varchar(255) NULL,
+  `Name` varchar(255) NULL,
+  `Subject` varchar(255) NULL,
+  `Message` text NULL,
+  PRIMARY KEY (`Notice_History_ID`)) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+INSERT INTO `Settings` (`Settings_ID`, `Key`, `Value`, `Module`, `Catalogue_ID`) VALUES (NULL, 'Email', '', 'notice', '0');
+INSERT INTO `Settings` (`Settings_ID`, `Key`, `Value`, `Module`, `Catalogue_ID`) VALUES (NULL, 'Name', '', 'notice', '0');
+INSERT INTO `Settings` (`Settings_ID`, `Key`, `Value`, `Module`, `Catalogue_ID`) VALUES (NULL, 'Subject', '', 'notice', '0');
+INSERT INTO `Settings` (`Settings_ID`, `Key`, `Value`, `Module`, `Catalogue_ID`) VALUES (NULL, 'Date', '', 'notice', '0');
+INSERT INTO `Settings` (`Settings_ID`, `Key`, `Value`, `Module`, `Catalogue_ID`) VALUES (NULL, 'User_Name', '', 'notice', '0');

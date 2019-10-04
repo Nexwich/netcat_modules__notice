@@ -1,0 +1,1 @@
+ADMIN_SETTINGS_LOCATION=module.notice.settings
