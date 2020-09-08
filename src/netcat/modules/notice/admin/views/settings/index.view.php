@@ -54,11 +54,11 @@ get_style_and_script(array("selectize"));
         </div>
 
         <div>
-          <p>Модуль "Почтовые уведомления" версия 3.0. Все права защищены.</p>
+          <p>Модуль "Почтовые уведомления" версия 3.1 Все права защищены.</p>
           <p>Разработчик: «Панасин Александр»<br>
             Email: <a href="mailto:alterfall@mail.ru">alterfall@mail.ru</a><br>
             Телефон: <a href="tel:79307234990">+7 930 723-49-90</a></p>
-          <p><a target="_blank" href="https://bitbucket.org/octocorp/notice/wiki/Home">Документация по модулю</a><br>
+          <p><a target="_blank" href="https://github.com/Nexwich/netcat_modules__notice">Документация по модулю</a><br>
             <a target="_blank" href="http://creativecommons.org/licenses/by-nd/3.0/deed.ru">Лицензия CC BY-ND 3.0</a>
           </p>
         </div>
