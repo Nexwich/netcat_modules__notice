@@ -27,7 +27,7 @@ function load_select($this){
       value: data.options.load.value
     },
     success: function (response){
-      data.select.options = response.options;
+      data.select.options = response.options || [];
       data.select.items = response.items;
       data.select.labelField = 'name';
       data.select.valueField = 'id';
@@ -54,8 +54,8 @@ function load_select($this){
             data.select.options.push({id: data.options.load.value[$i], name: data.options.load.value[$i]});
           }
         }else{
-          data.select.items.push({id: data.options.load.value[$i], name: data.options.load.value[$i]});
-          data.select.options.push({id: data.options.load.value[$i], name: data.options.load.value[$i]});
+          data.select.items.push({ id: data.options.load.value, name: data.options.load.value });
+          data.select.options.push({ id: data.options.load.value, name: data.options.load.value });
         }
       }
 
